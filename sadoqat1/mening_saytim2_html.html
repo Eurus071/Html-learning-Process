@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+    <head class="box">
+        <h1>What i have learned from HTML course...</h1>
+        <title>Style</title>
+      <link rel="stylesheet" href="style.css">
+      <style>
+        
+      table {
+       width: 100%;
+       border-collapse: collapse;
+      }
+      thead {
+        text-align: left;
+      }
+         th,td  {
+     border: 1px solid  black;
+     padding: 5px;
+    }
+    #qizil {
+        color: red;
+    }
+    .italic {
+        text-decoration: underline;
+    }
+
+      </style>
+    </head>
+    <body>
+        <h2>FORMS!</h2>
+        <form action="7server.php" method="get">
+        <p>  <label for="username" placeholder="sophie">USERNAME</label>
+          <input type="text" name="username" id="username"> </p>
+        <p>
+            <label for="password"> PASSWORD </label>
+          <input type="password" name="password" id="password" placeholder="12345">
+          <input type="reset"> <br><br>
+        </p>  
+        <p>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email">
+        </p>
+        <p>
+            <label for="date">Date of birth</label>
+            <input type="date" name="date" id="date">
+        </p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <p>
+            <label for="student" >Are you a student?</label>
+            <input type="checkbox" name="student" id="student">
+        </p>
+        <p>
+            <label for="passport">Upload your passport</label>
+            <input type="file" name="passport" id="passport">
+        </p>
+        <p>
+            <label for="experience"> Your experience in years</label>
+            <select name="experience" id="experience">
+                <option value="0">none</option>
+                <option value="1">Less than 1 year</option>
+                <option value="2">More than 1 year</option>
+            </select>
+        </p>
+        <p>
+            <label for="about">About yourself </label><br>
+            <textarea name="about" id="about" rows="5" cols="30"></textarea>
+        </p>
+        <p>
+            <button type="submit">LOGIN</button>
+        </p>
+        </form>
+        <h3>LINKS!</h3>
+        <a href="BIRNARSA.HTML" target="_blank"> IKKINCHI SAHIFAGA O'TISH</a>
+        <h1 >
+            Lorem ipsum
+        </h1>
+        <!-- Paragraphlar boshlanishi-->
+        <div class="italic">
+        <p>
+            In publishing and graphic design,<br>
+            <b>Lorem ipsum</b> <i>(/ˌlɔː.rəm ˈɪp.səm/)</i> is a placeholder text commonly<br>
+              used to <span id="qizil">demonstrate</span> the visual form of a document or a typeface<hr>
+               without relying on meaningful content.<b>Lorem ipsum</b> may be used <br>
+               as a <i>placeholder</i> before the <del> final</del> copy is available. 
+        </p>
+        </div>
+        <h1>H<sub>2</sub>O</h1>
+        <h2 >Second heading</h2>
+        <p id="ikkinchi"> It is also used to temporarily replace text in a process called greeking, which allows designers<br>
+             to consider the form of a webpage or publication, without the meaning of the text influencing the design.</p>
+        <p><b>Kvadrat tenglamalar(x<sup>2</sup>)!</b></p>
+        <img src="IMG.jpg.jpg" style="width: 250px; height: 250px;" alt="There is a picture!">
+        <!-- Paragraphlar tugashi-->
+        <!-- table-->
+       <h2>
+        Table
+       </h2>
+        <table>
+            <th>
+                <tr>
+                    #
+                </tr>
+                <tr>    
+                    Familiya
+                </tr>
+                <tr>
+                    Yosh
+                </tr>
+                <tr>
+                    Qiziqishi
+                </tr>
+            </th>
+            <tbody>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Alimov
+                    </td>
+                    <td>
+                        27
+                    </td>
+                    <td>
+                        Futbol
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        Qosimov
+                    </td>
+                    <td>
+                        25
+                    </td>
+                    <td>
+                        darturlash
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        Mahkamov
+                    </td>
+                    <td>
+                        26
+                    </td>
+                    <td>
+                        Playstasion
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!--form yaratish-->
+        <h2>
+            LISTS!
+        </h2>
+        <h3>
+            Subjects:
+        </h3>
+        <ul>
+        <li>
+           ACADEMIC ENGLISH
+        </li>
+        <li>CALCULUS</li>
+           <li> TDW </li>
+           <li>Physics</li>
+           <li>Physical experiment</li>
+           <li>OOP 2</li>
+           <li>CED</li>
+            
+        </ul>
+        <hr>
+        <h3>Colors</h3>
+        <ol>
+            <li>
+                Red
+            </li>
+            <li>
+                Yellow
+            </li>
+            <li>
+                Black
+            </li>
+            <li>
+                <ol>
+                Rainbow colours:
+
+                    <li>Blue</li>
+                    <li>White</li>
+                </ol>
+            </li>
+        </ol>
+        <!-- videolar joylash-->
+        <video width="640" height="240" controls>
+            <source src="Plasma-Energy-Generation-Concept-Slow.mp4" type="video/mp4">
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xKA9pHN3ao0?si=VnHPv2VQkcHm5Yb5"
+         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </body>
+</html>
+
+
+
+
+
+
+
+
